@@ -3,10 +3,21 @@ while True:
     try:
         n1= int(input("Digite um numero:"))
         n2= int(input("Digite um segundo numero:"))
-        opr= int(input("Qual operação? (+,-,*,/):"))
+       
     except ValueError:
-            print("digite apenas numeros ou as operaçoes em parentes")
+            print("digite apenas numeros")
             continue
+    break
+opr= input("Qual operação? (+,-,*,/):")
+
+
+#Calculadora
+elif opr == "*":
+     print("seu resultado é:", str(n1 * n2))
+elif opr == "/":
+    print("seu resultado é:", str(n1 / n2))
+
+     
 
 
 
