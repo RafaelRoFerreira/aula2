@@ -1,12 +1,19 @@
-idade = int(input("em que ano voce nasceu?:"))
+#Interação usuário
+while True:
+    try:
+        n1= int(input("Digite um numero:"))
+        n2= int(input("Digite um segundo numero:"))
+        opr= int(input("Qual operação? (+,-,*,/):"))
+    except ValueError:
+            print("digite apenas numeros ou as operaçoes em parentes")
+            continue
 
-if idade >=1910 and idade <= 2007:
-    print ("voce é MAIOR de idade")
 
-elif idade >2007:
-    print("voce é menor de idade")
 
-elif idade < 1910:
-    print("voce ja morreu kkkkkk")
-else:
-    print("tu nem nasceu aindakkkkk")
+
+
+
+
+
+
+
